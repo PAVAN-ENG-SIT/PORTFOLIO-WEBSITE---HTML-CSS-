@@ -30,22 +30,24 @@
 
 
 <main>
-        <section class="welcome" id="welcome">
-            <h1 class="me">Welcome to my portfolio</h1>
+<div class="welcome" id="welcome">
+    <div class="content">
+        <div class="noborder">
+                <br>
+                <p>Hi,I'm PavanTeja </p>
+                <br>
+                <p>A passionate web developer,<br>aiming to become a full stack developer</p>
+                <br>
+                <p>I am currently pursuing my B.E(CS)<br> at Siddaganga institute of technology(SIT),tumkur</p>
+                <br>
+                <p>To view my Resume <strong><a href="#">Click Here.</a></strong></p>
+            </div>
+            <div class="image">
+                <img  style="text-align: center;" src="Pavan_das.jpg" alt="pavan teja photo" margin="auto" >
+                </div>
+            </div>
             
-            <img  style="text-align: center;" src="Pavan_das.jpg" alt="pavan teja photo" margin="auto" >
-        </section>
-<hr>
-        <section  id="about">
-            <h1>About Me:</h1>
-            <p>I am a passionate web developer.</p>
-            <br>
-            <p>who is very much interested in ai full stack development , machine learning ,devops,app development.</p>
-            <br>
-            <p>I am currently pursuing my B.E in AI&DS at Siddaganga institute of technology(SIT),tumkur</p>
-            <br>
-            <p>To monitor my Resume <strong>Click Here.</strong></p>
-        </section>
+        </div>
 
 
 
@@ -67,8 +69,42 @@
                   <hr>
 
 <section id="projects">
-
     <h1>My Projects</h1>
+    
+    
+<div class="projects">
+    <div class="project1">
+        <h1>1.Telanagana Roads<br> Review Website</h1>
+        <p>This website contains all the details about the roads layed in telangana<br> on which public can give review.</p>
+    </div>
+    <div class="project1img">
+        <a  href="https://tg-roads.vercel.app/"><img class="img1"  src="telangana roads.png" alt="telangana website image"> </a>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="projects">
+
+    <div class="projects">
+<div class="project1">
+
+
+</div>
+<div class="projectimg">
+    
+</div>
+        </div>
         <table border cellspacing="0" cellpadding="5px" style="text-align:center">
             <tr>
                 <th>Index</th>
@@ -77,15 +113,9 @@
             </tr>
 
             <tr>
-                <td>1.</td>
-                <td>Telangana roads rewiew website</td>
-                <td>This website contains all the details about the roads layed in telangana on which public can give review.</td>
-
-            </tr>
-            <tr>
                 <td>2.</td>
                 <td>Personal expenses tracker</td>
-                <td> This website is best for the people who want to track their personal expenses</track></td>
+                <td> This website is best for the people who want to track their personal expenses tracker</td>
 
 
             </tr>  
@@ -94,12 +124,11 @@
 
                 <hr>
 <section  id="contact">
-    <h1>Contact Me</h1>
+    <h1>Send Me a Message</h1>
         <form>
-            <h3 >Send me a message</h3>
-                
-                <label for="name">Name:<input type="text" id="name"  name="name"></label><br><br>
-                <label for="Email">Email:<input type="text" id="Email"  name="Email"></label><br><br>
+                <fieldset>
+                <label for="name">Name<br><br><input height="30px" width="100px" type="text" class="name"  name="name"></label><br><br>
+                <label for="Email">Email<br><br><input type="text" class="email"  name="Email"></label><br><br>
                 <!-- <label for="gender">Choose your gender:
                 <input type="radio" id="male"  name="male" value="male">Male
                 <input type="radio" id="Female"  name="Female" value="Female">Female
@@ -115,14 +144,14 @@
                 <input type="checkbox"  value="exploring new technology">Exploring new technologies<br>
                  -->
                 <br>
-                <label> Message <input type="text" maxlength="500"> </label>
+                <label> Message <br><br> <textarea type="text" class="message" maxlength="500"> </textarea>
                 <br>
                 <br>
                 <br>
 
                 <button class="submit">Submit</button>
                 </label><br>
-        
+        </fieldset>
         </form>
 </section>
 
