@@ -129,32 +129,25 @@ justify-content: space-between;
 align-content:center;    
 }
 
-.project1{
+.project{
     margin-left:auto;
     margin-right: auto;
     padding: 50px;
 }
 
-.img1{
+.imgproject{
     height:410px;
     width:800px;
     margin:100px;
     border:2px solid #f4f9ff ;
 }
-.img1:hover{
+.imgproject:hover{
     border-color:#1e3a8a;
 }
 .project1img{
       margin-left:auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
 
 
 
