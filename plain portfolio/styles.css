@@ -1,0 +1,108 @@
+/* *{
+} */
+
+body{
+background-color:#f4f9ff;
+color:black;
+}
+
+
+
+nav{
+    width:100%;
+    background-color:#1e3a8a;
+    border:none;
+    border-radius: 5px;
+    position:fixed;
+    top:0px;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.cont{
+    margin-right: 50px;    
+}
+
+button{
+    height:30px;
+    width:80px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+        background-color:black;
+        color:white;
+
+}
+
+
+
+
+
+img{
+    display:block;
+    height:320px;
+    width:240px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius:50px;
+}
+
+
+
+.welcome{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto auto;
+}
+
+section{
+    height:100vh;
+    margin-bottom:20px;
+    margin-top:20px;
+    border:2px solid gray;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    margin:10px;
+}
+h1{
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+}
+h3{
+    font-size:30px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit{
+    display:block;
+
+    margin-left: auto;
+    margin-right:auto;
+    background-color:#1e3a8a;
+    color:white;
+    cursor:pointer;
+}
+
+.submit:hover{
+    background-color:#f4f9ff;
+    color:#1e3a8a;
+    border:1px solid #1e3a8a;
+}
