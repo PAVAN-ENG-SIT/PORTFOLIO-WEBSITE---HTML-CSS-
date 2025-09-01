@@ -1,7 +1,7 @@
 /* Phones */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
    .projects { flex-direction: column; }
-   .projectdesc { padding: 10px; font-size: 16px; }
+   .projectdesc { padding: 10px; font-size: 12px; }
    .skills-container { flex-direction: column; padding: 20px; }
    img { max-width: 100%; height: auto; }
 }
