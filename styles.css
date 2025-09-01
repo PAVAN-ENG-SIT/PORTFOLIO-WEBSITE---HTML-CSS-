@@ -299,6 +299,7 @@ h3 {
    justify-content: center;
    align-items: center;
    gap: 20px;
+  content: 5rem;
    margin: 20px auto;
 }
 
@@ -307,7 +308,8 @@ h3 {
 
 .projectdesc {
    max-width: 600px;
-   padding: 20px;
+    content:5rem;
+  
    text-align: center;
 }
 
