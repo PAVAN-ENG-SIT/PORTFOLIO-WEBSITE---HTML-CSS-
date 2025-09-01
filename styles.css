@@ -2,6 +2,7 @@
 @media (max-width: 650px) {
    .projects { flex-direction: column; }
    .projectdesc { padding: 10px; font-size: 16px; }
+   .project1img{ height:2em; width:5em;}
    .skills-container { flex-direction: column; padding: 20px; }
    img { max-width: 100%; height: auto; }
    fieldset { max-width: fit-content;}
