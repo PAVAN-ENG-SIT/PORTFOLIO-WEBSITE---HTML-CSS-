@@ -2,6 +2,7 @@
 @media (max-width: 650px) {
    .projects { flex-direction: column; }
    .projectdesc { padding: 10px; font-size: 16px; }
+   .imgproject{content:100rem;}
    .skills-container { flex-direction: column; padding: 20px; }
    img { max-width: 100%; height: auto; }
    fieldset { max-width: fit-content;}
@@ -300,7 +301,6 @@ h3 {
    justify-content: center;
    align-items: center;
    gap: 20px;
-  content: 100rem;
    margin: 20px auto;
 }
 
@@ -309,7 +309,6 @@ h3 {
 
 .projectdesc {
    max-width: 600px;
-    content:100rem;
   
    text-align: center;
 }
@@ -322,6 +321,7 @@ h3 {
     max-width: 100%;   /* shrink to fit container */
    height: auto;      /* keep aspect ratio */
    margin: 20px auto; /* smaller, cleaner margin */
+   
    border: 2px solid #f4f9ff;
    border-radius: 10px;
 
