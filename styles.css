@@ -1,3 +1,31 @@
+/* Phones */
+@media (max-width: 600px) {
+   h1 { font-size: 28px; }
+   nav { flex-direction: column; align-items: center; }
+   .skills-container { flex-direction: column; padding: 20px; }
+   .imgproject { width: 100%; height: auto; margin: 20px 0; }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+   h1 { font-size: 40px; }
+   nav { padding: 15px; }
+   .techstacks { gap: 20px; }
+   .imgproject { width: 90%; }
+}
+
+/* laptops */
+@media (min-width: 1025px) {
+   h1 { font-size: 50px; }
+   .imgproject { width: 800px; }
+}
+
+
+
+
+
+
+
 *{
     font-size: 18px;
 }
@@ -8,6 +36,17 @@ color:black;
 }
 
 
+
+
+@media (max-width: 600px) {
+   nav {
+      flex-direction: column;
+      padding: 10px;
+   }
+   nav a {
+      margin: 5px 0;
+   }
+}
 
 nav{
     width:100%;
@@ -30,7 +69,7 @@ nav{
 }
 
 .content{
-    height:100vh;
+    min-height:100vh;
     width: 100%;
     display:flex;
     align-items: center;
@@ -79,22 +118,18 @@ button:hover{
 
 img{
     display:block;
-    height:480px;
-    width:360px;
+    height:20em;
+    max-width:15em;
     margin-left: auto;
     margin-right:auto;
-    border-radius:50px;
+    border-radius:20px;
 }
 
 
 
 .welcome{
-    /* display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:auto auto; */
-}
+  
+/* } */
 
 section{
     height:100vh;
