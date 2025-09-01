@@ -92,10 +92,10 @@ color:black;
   display: flex;
   justify-content: space-between; /* space between Home & rest */
   align-items: center;
-  padding: 15px 20px;
+  padding: 15px 30px;
   flex-wrap: nowrap; /* don’t wrap */
   overflow-x: auto;  /* scroll if too tight */
-  border-radius:2px;
+
 }
 
 .left,.right {
