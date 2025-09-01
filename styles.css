@@ -92,7 +92,7 @@ color:black;
   display: flex;
   justify-content: space-between; /* space between Home & rest */
   align-items: center;
-  padding: 15px 30px;
+  padding: 18px 10px;
   flex-wrap: nowrap; /* don’t wrap */
   overflow-x: auto;  /* scroll if too tight */
 
@@ -371,9 +371,9 @@ h3 {
 
 
  fieldset{
-    padding: 3rem;
+    padding: 2rem;
     width: 0.5rem;
-    border-radius:10px;
+    border-radius:5px;
     display:block;
     text-align: center;
     margin-left: auto;
