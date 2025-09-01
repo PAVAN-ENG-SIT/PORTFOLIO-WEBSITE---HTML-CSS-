@@ -4,7 +4,7 @@
    .projectdesc { padding: 10px; font-size: 16px; }
    .skills-container { flex-direction: column; padding: 20px; }
    img { max-width: 100%; height: auto; }
-   .imgproject{width: 80%; height: auto;}
+   .imgproject{width: 80%; height: 40%;}
    fieldset { max-width: fit-content;}
 }
 
