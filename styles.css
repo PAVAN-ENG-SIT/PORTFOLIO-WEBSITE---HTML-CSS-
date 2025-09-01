@@ -128,7 +128,9 @@ img{
 
 
 .welcome{
-  
+
+
+}
 /* } */
 
 section{
@@ -170,6 +172,9 @@ h3{
     align-items: flex-start;
     padding:40px;
 } 
+
+
+
 .skillsheading{
     font-size:100px;
 
@@ -212,6 +217,7 @@ align-content:center;
 .imgproject:hover{
     border-color:#1e3a8a;
 }
+
 .project1img{
       margin-left:auto;
     margin-right: auto;
@@ -263,3 +269,4 @@ fieldset{
     color:#1e3a8a;
     border:1px solid #1e3a8a;
 }
+
